@@ -16,7 +16,7 @@ while True:
                 "String Session Sucessfully Sent To Your Saved Message, Store It To A Safe Place!!\n\n "
             )
             print("")
-            session = client.session.save()
+            session = print(client.session.save())
             client.send_message(
                 "me",
                 f"Here is your TELEGRAM STRING SESSION\n(Tap to copy it)👇 \n\n `{session}` \n\n And Visit @MafiaBot_Support For Any Help!\n\n",
